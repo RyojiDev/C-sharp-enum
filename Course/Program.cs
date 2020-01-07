@@ -52,6 +52,8 @@ namespace Course
             Console.WriteLine();
 
             Console.Write("Income for " + monthAndYear + " :" + worker.Income(year, month).ToString("F2",CultureInfo.InvariantCulture));
+
+            Console.WriteLine("Acabou");
         }
     }
 }
